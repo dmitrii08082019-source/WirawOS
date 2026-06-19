@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WirawOS — Свободная Операционная Система</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0a0e17;
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 2px solid #00ff88;
+            border-radius: 20px;
+            padding: 40px;
+            background: #111827;
+            box-shadow: 0 0 60px rgba(0, 255, 136, 0.1);
+        }
+        h1 {
+            font-size: 4em;
+            color: #00ff88;
+            text-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+            margin-bottom: 10px;
+        }
+        .version {
+            color: #ffaa00;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .price {
+            font-size: 3em;
+            color: #00ff88;
+            background: #1a2332;
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+            margin: 20px 0;
+            border: 1px solid #00ff88;
+        }
+        .price span {
+            color: #ffaa00;
+            font-size: 0.5em;
+            text-decoration: line-through;
+            margin-right: 15px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #00ff88;
+            color: #0a0e17;
+            padding: 18px 50px;
+            border-radius: 50px;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 20px 0;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        .download-btn:hover {
+            background: #00cc66;
+            transform: scale(1.05);
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.4);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 30px 0;
+            text-align: left;
+        }
+        .feature {
+            background: #1a2332;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #00ff88;
+        }
+        .feature strong {
+            color: #00ff88;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #4a5a6a;
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #00ff88;
+            text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5em; }
+            .features { grid-template-columns: 1fr; }
+            .price { font-size: 2em; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>⚡ WirawOS</h1>
+        <div class="version">v13.3 — Свободная ОС для всех!</div>
+
+        <div class="price">
+            <span>$0.00</span> БЕСПЛАТНО! 🎉
+        </div>
+
+        <p style="font-size: 1.2em; margin: 20px 0; color: #aabbcc;">
+            Большая, быстрая, мощная операционная система<br>
+            для старых и новых компьютеров.
+        </p>
+
+        <a href="WIRPE.ISO" class="download-btn">⬇ Скачать WirawOS</a>
+
+        <div class="features">
+            <div class="feature"><strong>⚡ Супер-быстрая</strong><br>Загружается за секунды</div>
+            <div class="feature"><strong>🖥️ Работает на старом железе</strong><br>Intel 386+</div>
+            <div class="feature"><strong>💰 Абсолютно бесплатно</strong><br>Открытый исходный код</div>
+        </div>
+
+        <div class="footer">
+            <p>Сделано с ❤️ 6-летним разработчиком</p>
+            <p>
+                <a href="https://github.com/dmitrii08082019-source/wirawos">GitHub</a> •
+            </p>
+            <p style="margin-top: 10px; font-size: 0.8em;">© 2026 WirawOS. Все права защищены.</p>
+        </div>
+    </div>
+
+</body>
+</html>
